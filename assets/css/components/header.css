@@ -1,0 +1,12 @@
+header{
+    background-color: var(--white);
+    height: 72px;
+    padding: 16px;
+}
+.menu-items{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}

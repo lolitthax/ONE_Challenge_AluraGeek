@@ -1,0 +1,33 @@
+.btn-1 {
+    display: flex;
+    width: 133px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+    text-decoration: none;
+}
+
+.btn-2 {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--primary-blue);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.btn-1:hover {
+    background-color: #D4E4FA;
+}
+
+.btn-2:hover {
+    background-color: #5595E9;
+}
+.btn-1:hover, .btn-2:hover{
+    transition: 0.5s;
+}
