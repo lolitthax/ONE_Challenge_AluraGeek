@@ -12,6 +12,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    color: white;
 }
 .subtitle-1, .subtitle-2{
     color: var(--black);
