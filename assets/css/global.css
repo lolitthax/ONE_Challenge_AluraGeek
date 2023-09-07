@@ -4,6 +4,7 @@
 /* components css */
 @import './components/header.css';
 @import './components/banner.css';
+@import './components/products.css';
 
 body {
     font-family: 'Raleway', sans-serif;

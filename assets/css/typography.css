@@ -14,22 +14,37 @@
     line-height: normal;
     color: white;
 }
-.subtitle-1, .subtitle-2{
-    color: var(--black);
-    font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    line-height: normal;
-}
-.subtitle-1{
+
+.title-2 {
+    font-size: 22px;
     font-weight: 700;
 }
-.subtitle-2{
-    font-weight: 500;
+
+.subtitle,
+.title-2 {
+    color: var(--black);
+    font-family: Raleway;
+    font-style: normal;
+    line-height: normal;
 }
-.description {
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 700;
+}
+.description,
+.description-2 {
     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
+}
+
+.description {
+    font-weight: 500;
+    color: var(--black);
+}
+
+.description-2 {
+    color: var(--primary-blue);
+    font-weight: 700;
 }
